@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
-from scripts.manejo_archivos import scan_archivo
+from scripts.manejo_archivos import *
 
 
 import sys
@@ -9,6 +9,6 @@ print(sys.path)
 
 def scan(request):
     if request.method == "GET":
-        texto = scan_archivo()
+        texto = unificar_datos(r'C:\Users\guidi\OneDrive\Escritorio\scan_documentos\scan_documentos\media\A.pdf')
         return HttpResponse(texto)
 

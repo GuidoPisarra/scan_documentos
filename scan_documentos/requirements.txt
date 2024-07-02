@@ -1,0 +1,14 @@
+# Paquetes para el manejo de HTTP y utilidades
+requests
+traits
+groq
+
+# Paquetes para el manejo de PDFs
+pdfplumber
+PyMuPDF
+
+# Paquete para el manejo de códigos de barras
+opencv-python
+opencv-python-headless
+#zbar
+pyzbar
